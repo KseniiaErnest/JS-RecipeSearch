@@ -105,20 +105,29 @@ box-shadow: 5px 5px 15px 3px rgb(42, 15, 23, 0.2);
 }
 
 
-
-
-
-
-/* .item-box {
-  padding: 1rem;
-  width: 100%;
+@media (max-width: 62.5em) {
+  #inputname {
+    width: 30rem;
+  } 
 }
 
-.item-img {
-  max-width: 35rem;
-  height: 29rem;
-  border-radius: 9px;
-  padding: 1rem;
 
-}  */
+@media (max-width: 37.5em) {
+  .heading-container h1 {
+    
+    font-size: 3rem;
+    }
 
+    #inputname {
+      width: 25rem;
+      padding: 1rem 1.2rem 1rem 1rem;
+      color: #FEF2F4;
+      font-size: 1.2rem;
+    } 
+
+    .item-img {
+      width: 20rem;
+      height: 25rem;
+      }
+
+}
