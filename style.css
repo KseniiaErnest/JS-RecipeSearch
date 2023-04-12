@@ -1,0 +1,124 @@
+/* Colors
+BACKGROUND-COLOR: #FEF2F4;
+DARK ACCENTS: #2a0f17;
+TEXT COLOR: #15080b;
+
+
+
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Lobster', cursive;
+  line-height: 1;
+  background-color: #FEF2F4;
+}
+
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.8rem;
+}
+
+.heading-container h1 {
+color: #2a0f17;
+font-size: 5rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  padding: 2.4rem;
+}
+
+#inputname {
+  width: 50%;
+  padding: 1.6rem 1.2rem 1.6rem 1.2rem;
+  border-radius:11px;
+  background-color: #2a0f17 ;
+  color: #FEF2F4;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+  border: none;
+}
+
+::placeholder {
+  color: #FEF2F4;
+  opacity: 0.7;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+  
+  
+}
+
+.item-box {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  
+}
+
+.item-box p {
+  padding: 1.6rem;
+  
+}
+
+a:link, a:active {
+  text-decoration: none;
+  color: #15080b;
+}
+
+a:hover, a:visited {
+  color: #15080b;
+}
+
+
+.item-img {
+width: 35rem;
+height: 30rem;
+object-fit:cover;
+border-radius: 9px;
+box-shadow: 5px 5px 15px 3px rgb(42, 15, 23, 0.2);
+}
+
+
+
+
+
+
+/* .item-box {
+  padding: 1rem;
+  width: 100%;
+}
+
+.item-img {
+  max-width: 35rem;
+  height: 29rem;
+  border-radius: 9px;
+  padding: 1rem;
+
+}  */
+
